@@ -1,0 +1,116 @@
+[
+  {
+    "nom": "Concours ABC 2022",
+    "questions": [
+      {
+        "corps": "Sur le territoire de quel pays pouvait-on trouver les Aztèques ?",
+        "choix": ["Brésil", "Mexique", "Argentine"],
+        "indice_reponse": 1
+      },
+      {
+        "corps": "De quel courant philosophique Plotin est-il le grand représentant ?",
+        "choix": ["L'aristotélisme", "Le néoplatonisme", "Le scepticisme"],
+        "indice_reponse": 1
+      },
+      {
+        "corps": "Qui a réalisé le film « In the mood for love » ?",
+        "choix": ["Zhang Yimou", "Chan Feng Zhao", "Wong Kar-Wai"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "Parmi les hommes politiques suivants, lequel a succédé à Hugo Chavez en tant que Président du Venezuela ?",
+        "choix": ["Evo Morales", "Nicolas Maduro", "Lula"],
+        "indice_reponse": 1
+      },
+      {
+        "corps": "De l’œuvre de quel écrivain est tirée la célèbre question « Que sais-je ? »",
+        "choix": ["Étienne de la Boétie", "Voltaire", "Montaigne"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "En solfège, comment appelle-t-on le silence qui dure un temps ?",
+        "choix": ["Une pause.", "Un silence.", "Un soupir."],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "Quelle année retient-on habituellement comme l’année de la chute de l’Empire romain d’Occident ?",
+        "choix": ["476 ap. J.-C.", "375 ap. J.-C.", "496 ap. J.-C."],
+        "indice_reponse": 0
+      },
+      {
+        "corps": "En 2014, quelle entreprise rachète la branche énergie d’Alstom ?",
+        "choix": ["Siemens", "Philipps", "General Electrics"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "Quelle race d’animal est un briard ?",
+        "choix": ["Un chien", "Un cheval", "Un canard"],
+        "indice_reponse": 0
+      },
+      {
+        "corps": "On dit qu’un taureau…",
+        "choix": ["beugle.", "barète.", "clabaude."],
+        "indice_reponse": 0
+      }
+    ],
+
+    "copies": [
+      {
+        "nom": "SAM",
+        "prenom": "Claire",
+        "no_cnib": "B8348",
+        "reponses": [0, 1, 1, 1, 1, 1, 0, 2, 0, 2],
+        "note": null
+      },
+      {
+        "nom": "KABORE",
+        "prenom": "Madi",
+        "no_cnib": "B4508",
+        "reponses": [1, 1, 1, 1, 1, 1, 0, 2, 1, 2],
+        "note": null
+      },
+      {
+        "nom": "BAMA",
+        "prenom": "Yves",
+        "no_cnib": "B4085",
+        "reponses": [0, 1, 2, 1, 1, 1, 0, 2, 0, 2],
+        "note": null
+      },
+      {
+        "nom": "TOURE",
+        "prenom": "Bart",
+        "no_cnib": "B7543",
+        "reponses": [0, 2, 2, 2, 2, 1, 0, 2, 0, 2],
+        "note": null
+      },
+      {
+        "nom": "KABORE",
+        "prenom": "Madi",
+        "no_cnib": "B3487",
+        "reponses": [0, 0, 1, 0, 0, 1, 0, 2, 0, 2],
+        "note": null
+      },
+      {
+        "nom": "YAMEOGO",
+        "prenom": "Fanta",
+        "no_cnib": "B4555",
+        "reponses": [0, 1, 1, 1, 0, 0, 0, 2, 0, 2],
+        "note": null
+      },
+      {
+        "nom": "PARE",
+        "prenom": "Max",
+        "no_cnib": "B8078",
+        "reponses": [2, 2, 2, 0, 1, 1, 0, 2, 0, 1],
+        "note": null
+      },
+      {
+        "nom": "BARRY",
+        "prenom": "Madi",
+        "no_cnib": "Sali",
+        "reponses": [1, 1, 0, 0, 0, 1, 1, 2, 1, 0],
+        "note": null
+      }
+    ]
+  }
+]
