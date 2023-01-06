@@ -36,7 +36,8 @@ const correct = async (req, res) => {
 
     concours.corrige=true;
     const resultats = await concours.save();
-    for(var i = 0; i < resultats.copies.length; i++){
+    var i = concours.copies.length;
+    while(i--){
         if(resultats.copies[i].note<resultats.questions.length/2){
             resultats.copies.splice(i,1);
         }
