@@ -7,8 +7,10 @@ const ConcoursController = require('../controllers/ConcoursController');
 router.route('/')
     .get(ConcoursController.getAll)
 
-router.route('/:id')
+    router.route('/:id')
     .get(ConcoursController.getById)
-    .put(ConcoursController.correct);
+    .put(ConcoursController.correct)
+
+
 
 module.exports = router;

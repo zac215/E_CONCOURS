@@ -18,11 +18,12 @@ db.once('open', ()=>{
 const app=express()
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({extended:true}))
-app.use(bodyParser.json)
+app.use(bodyParser.json())
+app.use('/concours', ConcoursRoute);
+
 
 const PORT =process.env.PORT || 3000
 app.listen(PORT, ()=>{
     console,console.log(`Server is running on port ${PORT}`);
 })
 
-app.use('/concours', ConcoursRoute);

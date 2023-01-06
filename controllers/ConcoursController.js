@@ -27,16 +27,17 @@ const correct = async (req, res) => {
 
     for(var i = 0; i < concours.copies.length; i++){
         for(var j=0; j< concours.questions.length; j++){
+            
             if(concours.copies[i].indices_reponses[j] ==concours.questions[j].indice_reponse){
                 concours.copies[i].note++;
             }
         }
     }
 
-    
+    concours.corrige=true;
     const resultats = await concours.save();
-    for(var i = 0; i < concours.copies.length; i++){
-        if(resultats.copies[i].note<resultats.questions,length/2){
+    for(var i = 0; i < resultats.copies.length; i++){
+        if(resultats.copies[i].note<resultats.questions.length/2){
             resultats.copies.splice(i,1);
         }
     }

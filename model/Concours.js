@@ -1,10 +1,7 @@
-const { ObjectId } = require('bson')
+
 const mongoose = require('mongoose');
 const Schema =mongoose.Schema
 const ConcoursSchema = new Schema({
-    id:{
-        type: ObjectId
-    },
     nom: {
         type: String
     },
@@ -39,4 +36,4 @@ const ConcoursSchema = new Schema({
 
 })
 
-module.exports=mongoose.model("Concours",ConcoursSchema);
+module.exports=mongoose.model("concours",ConcoursSchema);

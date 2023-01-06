@@ -59,58 +59,59 @@
         "nom": "SAM",
         "prenom": "Claire",
         "no_cnib": "B8348",
-        "reponses": [0, 1, 1, 1, 1, 1, 0, 2, 0, 2],
-        "note": null
+        "indices_reponses": [0, 1, 1, 1, 1, 1, 0, 2, 0, 2],
+        "note": 0
       },
       {
         "nom": "KABORE",
         "prenom": "Madi",
         "no_cnib": "B4508",
-        "reponses": [1, 1, 1, 1, 1, 1, 0, 2, 1, 2],
-        "note": null
+        "indices_reponses": [1, 1, 1, 1, 1, 1, 0, 2, 1, 2],
+        "note": 0
       },
       {
         "nom": "BAMA",
         "prenom": "Yves",
         "no_cnib": "B4085",
-        "reponses": [0, 1, 2, 1, 1, 1, 0, 2, 0, 2],
-        "note": null
+        "indices_reponses": [0, 1, 2, 1, 1, 1, 0, 2, 0, 2],
+        "note": 0
       },
       {
         "nom": "TOURE",
         "prenom": "Bart",
         "no_cnib": "B7543",
-        "reponses": [0, 2, 2, 2, 2, 1, 0, 2, 0, 2],
-        "note": null
+        "indices_reponses": [0, 2, 2, 2, 2, 1, 0, 2, 0, 2],
+        "note": 0
       },
       {
         "nom": "KABORE",
         "prenom": "Madi",
         "no_cnib": "B3487",
-        "reponses": [0, 0, 1, 0, 0, 1, 0, 2, 0, 2],
-        "note": null
+        "indices_reponses": [0, 0, 1, 0, 0, 1, 0, 2, 0, 2],
+        "note": 0
       },
       {
         "nom": "YAMEOGO",
         "prenom": "Fanta",
         "no_cnib": "B4555",
-        "reponses": [0, 1, 1, 1, 0, 0, 0, 2, 0, 2],
-        "note": null
+        "indices_reponses": [0, 1, 1, 1, 0, 0, 0, 2, 0, 2],
+        "note": 0
       },
       {
         "nom": "PARE",
         "prenom": "Max",
         "no_cnib": "B8078",
-        "reponses": [2, 2, 2, 0, 1, 1, 0, 2, 0, 1],
-        "note": null
+        "indices_reponses": [2, 2, 2, 0, 1, 1, 0, 2, 0, 1],
+        "note": 0
       },
       {
         "nom": "BARRY",
         "prenom": "Madi",
-        "no_cnib": "Sali",
-        "reponses": [1, 1, 0, 0, 0, 1, 1, 2, 1, 0],
-        "note": null
+        "no_cnib": "B8370",
+        "indices_reponses": [1, 1, 0, 0, 0, 1, 1, 2, 1, 0],
+        "note": 0
       }
-    ]
+    ],
+    "corrige": false
   }
 ]
