@@ -1,12 +1,13 @@
 const { response } = require('express')
 const Concours= require('../model/Concours')
 
+//Obtenir tous les concours enregistrés
 const getAll = async (req, res, next) => {
     const concours = await Concours.find().exec();
     if (!concours) return res.status(204).json({ 'message': 'Aucun concours trouvé.' });
     res.json(concours);
 }
-
+//Obtenir un concours grace a son id
 const getById = async (req, res) => {
     if (!req?.params?.id) return res.status(400).json({ 'message': 'ID du concours requis.' });
 
@@ -16,7 +17,7 @@ const getById = async (req, res) => {
     }
     res.json(concours);
 }
-
+//corriger un concours grace a son id et obtenir la liste des copies ayant la moyenne
 const correct = async (req, res) => {
     if (!req?.params?.id) return res.status(400).json({ 'message': 'ID du concours requis.' });
 
