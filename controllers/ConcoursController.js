@@ -22,6 +22,9 @@ const correct = async (req, res) => {
     if (!req?.params?.id) return res.status(400).json({ 'message': 'ID du concours requis.' });
 
     const concours = await Concours.findOne({ _id: req.params.id }).exec();
+    if (concours.corrige) {
+        return res.status(400).json({ "message": `Concours déja corrigé` });
+    }
     if (!concours) {
         return res.status(204).json({ "message": `ID ${!req?.params?.id} incorect` });
     }
