@@ -113,5 +113,120 @@
       }
     ],
     "corrige": false
+  },
+  {
+    "nom":"culture generale Burkina",
+    "questions":[
+      {
+        "corps": "Quel est la capitale du Burkina?",
+        "choix": ["Koudougou", "Bobo", "Ouagadougou"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "Qui est l'actuel président du Burkina?",
+        "choix": ["Henry Damiba", "Roch Marc Kabore", "Ibrahim Traore"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "combien de province compte-on au Burkina?",
+        "choix": ["45", "20", "30"],
+        "indice_reponse": 0
+      },
+      {
+        "corps": "Combien de réseaux télephoniques compte le burkina?",
+        "choix": ["1", "3", "4"],
+        "indice_reponse": 1
+      },
+      {
+        "corps": "A quel température boue l'eau?",
+        "choix": ["120", "100", "115"],
+        "indice_reponse": 1
+      },
+      {
+        "corps": "Quel sportif  a remporte le ballon d'or 2022?",
+        "choix": ["Lionel Messi", "Cristiano Ronaldo", "Karim Benzema"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "combien de president le Burkina a t'il eu en 2022?",
+        "choix": ["2", "8", "3"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "Quel est la profession de Bertrand Traore?",
+        "choix": ["enseignant", "footbaleur", "danseur"],
+        "indice_reponse": 2
+      },
+      {
+        "corps": "40/0=",
+        "choix": ["0", "20", "400"],
+        "indice_reponse": 0
+      },
+      {
+        "corps":" en quelle année le conflit russo-ukrénien a t'il eclate?",
+        "choix": ["2020","2022","2019"],
+        "indice_reponse":1
+      }
+
+    ],
+    "copies": [
+      {
+        "nom": "SAM",
+        "prenom": "Claire",
+        "no_cnib": "B8348",
+        "indices_reponses": [0, 1, 1, 1, 1, 1, 0, 2, 0, 2],
+        "note": 0
+      },
+      {
+        "nom": "KABORE",
+        "prenom": "Madi",
+        "no_cnib": "B4508",
+        "indices_reponses": [1, 1, 1, 1, 1, 1, 0, 2, 1, 2],
+        "note": 0
+      },
+      {
+        "nom": "BAMA",
+        "prenom": "Yves",
+        "no_cnib": "B4085",
+        "indices_reponses": [0, 1, 2, 1, 1, 1, 0, 2, 0, 2],
+        "note": 0
+      },
+      {
+        "nom": "TOURE",
+        "prenom": "Bart",
+        "no_cnib": "B7543",
+        "indices_reponses": [0, 2, 2, 2, 2, 1, 0, 2, 0, 2],
+        "note": 0
+      },
+      {
+        "nom": "KABORE",
+        "prenom": "Madi",
+        "no_cnib": "B3487",
+        "indices_reponses": [0, 0, 1, 2, 2, 1, 0, 2, 0, 2],
+        "note": 0
+      },
+      {
+        "nom": "YAMEOGO",
+        "prenom": "Fanta",
+        "no_cnib": "B4555",
+        "indices_reponses": [0, 1, 2, 2, 0, 0, 0, 2, 0, 2],
+        "note": 0
+      },
+      {
+        "nom": "PARE",
+        "prenom": "Max",
+        "no_cnib": "B8078",
+        "indices_reponses": [2, 2, 2, 0, 1, 2, 0, 2, 0, 1],
+        "note": 0
+      },
+      {
+        "nom": "BARRY",
+        "prenom": "Madi",
+        "no_cnib": "B8370",
+        "indices_reponses": [1, 1, 0, 0, 0, 1, 1, 2, 1, 0],
+        "note": 0
+      }
+    ],
+    "corrige": false
   }
 ]
